@@ -154,13 +154,15 @@ function heal_header_style() {
 								query_posts('post_type=causes' );
 								if(have_posts()) {
 									?>			
-									<li><span class="donate"><?php _e('Donate ', 'heal') ?><i class="fa fa-heart"></i></span></li>
+									<!-- COMMENTING OUT DONATE BUTTON
+									<li><span class="donate"><?php _e('Donate ', 'heal') ?><i class="fa"></i></span></li>
 									<?php }
 									wp_reset_query();
 
 									} else { ?>
 
 								<li><span class="donate-custom"><a href="<?php echo esc_url($heal_option['heal_donation_menual_url']); ?>"><?php _e('Donate ', 'heal') ?><i class="fa fa-heart"></i></a></span></li>
+								END COMMENT -->
 
 								<?php }
 

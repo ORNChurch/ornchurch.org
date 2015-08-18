@@ -56,7 +56,7 @@
 							</h3><!-- /.parallax-title -->
 							<p class="parallax-description">
 								<?php the_title() ?> <?php echo ($currency_symbol) ? $currency_symbol : '$'; ?> <?php echo esc_html($donation_goal); ?> <br>
-								<span class="amount"><?php echo ($currency_symbol) ? $currency_symbol : '$'; ?> <?php echo esc_html($donation_current); ?> </span><?php _e('so far !!', 'heal') ?> 
+								<span class="amount"><?php echo ($currency_symbol) ? $currency_symbol : '$'; ?> <?php echo esc_html($donation_current); ?> </span><?php _e('so far !', 'heal') ?> 
 							</p><!-- /.parallax-description -->
 							<div class="progress-bar-container">
 								<div class="progress">
@@ -66,7 +66,7 @@
 								</div><!-- /.progress -->
 							</div><!-- /.progress-bar-container -->
 							<p>
-								<a href="<?php the_permalink(); ?>" class="btn donate-btn"><?php _e('Donate Now ', 'heal') ?><i class="fa fa-heart"></i></a>
+								<a href="<?php the_permalink(); ?>" class="btn donate-btn"><?php _e('Donate Now ', 'heal') ?><i class="fa"></i></a>
 							</p>
 						</div><!-- /.container -->
 					</div><!-- /.parallax-overlay -->
